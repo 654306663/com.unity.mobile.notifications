@@ -13,8 +13,6 @@ build:
   stage: build
   tags:
   - darwin
-  only:
-  - master
   before_script:
   - ./project/prepare_env.sh
   script:
@@ -45,7 +43,6 @@ publish:
   tags:
   - darwin
   only:
-  - master
   - tags
   script:
   - ./project/publish_package.sh
