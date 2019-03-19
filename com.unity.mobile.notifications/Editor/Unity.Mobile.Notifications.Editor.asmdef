@@ -1,8 +1,8 @@
 {
     "name": "Unity.Notifications",
     "references": [
-        "GUID:1e8e55397bd004beaba78a667566665f",
-        "GUID:ac145e6b8c6034cdbadc8c6e26aedbcf"
+        "Unity.Notifications.iOS",
+        "Unity.Notifications.Android"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [
@@ -11,10 +11,7 @@
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
-    "precompiledReferences": [
-        ""
-    ],
+    "precompiledReferences": [],
     "autoReferenced": false,
-    "defineConstraints": [],
-    "versionDefines": []
+    "defineConstraints": []
 }
